@@ -1,0 +1,15 @@
+/home/pustrace/programming/webAegis/bin/Debug/net9.0/webAegis
+/home/pustrace/programming/webAegis/bin/Debug/net9.0/webAegis.deps.json
+/home/pustrace/programming/webAegis/bin/Debug/net9.0/webAegis.runtimeconfig.json
+/home/pustrace/programming/webAegis/bin/Debug/net9.0/webAegis.dll
+/home/pustrace/programming/webAegis/bin/Debug/net9.0/webAegis.pdb
+/home/pustrace/programming/webAegis/obj/Debug/net9.0/webAegis.GeneratedMSBuildEditorConfig.editorconfig
+/home/pustrace/programming/webAegis/obj/Debug/net9.0/webAegis.AssemblyInfoInputs.cache
+/home/pustrace/programming/webAegis/obj/Debug/net9.0/webAegis.AssemblyInfo.cs
+/home/pustrace/programming/webAegis/obj/Debug/net9.0/webAegis.csproj.CoreCompileInputs.cache
+/home/pustrace/programming/webAegis/obj/Debug/net9.0/webAegis.sourcelink.json
+/home/pustrace/programming/webAegis/obj/Debug/net9.0/webAegis.dll
+/home/pustrace/programming/webAegis/obj/Debug/net9.0/refint/webAegis.dll
+/home/pustrace/programming/webAegis/obj/Debug/net9.0/webAegis.pdb
+/home/pustrace/programming/webAegis/obj/Debug/net9.0/webAegis.genruntimeconfig.cache
+/home/pustrace/programming/webAegis/obj/Debug/net9.0/ref/webAegis.dll
