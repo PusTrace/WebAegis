@@ -1,6 +1,5 @@
-// webAegis.api/RequestBroker.cs
+using modules;  // <- теперь ProtectionModule виден
 using System;
-using modules;
 
 namespace webAegis.api
 {
@@ -13,7 +12,6 @@ namespace webAegis.api
             this.manager = manager;
         }
 
-        // Пока пример: имитация запроса с сайта
         public void SimulateRequest(string clientIp, string path)
         {
             var request = new RequestEvent
@@ -23,17 +21,14 @@ namespace webAegis.api
                 Timestamp = DateTime.Now
             };
 
-            // Отправляем в модули для анализа
             manager.RunAllModules(request);
         }
     }
 
-    // Универсальный формат запроса
     public class RequestEvent
     {
         public string ClientIp { get; set; }
         public string Path { get; set; }
         public DateTime Timestamp { get; set; }
-        // Можно добавлять headers, cookies и т.д.
     }
 }

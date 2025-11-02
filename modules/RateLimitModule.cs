@@ -2,6 +2,7 @@
 using System;
 using webAegis.api;
 using System.Collections.Generic;
+using modules;
 
 public class RateLimitModule : ProtectionModule
 {

@@ -1,8 +1,7 @@
-// webAegisManager.cs
 using System;
 using System.Collections.Generic;
-using modules;
-using webAegis.api;
+using modules; // <- важно!
+using webAegis.api; // если используешь RequestEvent
 
 public class WebAegisManager
 {

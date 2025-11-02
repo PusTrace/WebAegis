@@ -1,25 +1,32 @@
-using System;
+// modules/ProtectionModule.cs
+using webAegis.api;
 
-namespace webAegis.Modules
+namespace modules
 {
     public abstract class ProtectionModule
     {
-        public string Name { get; protected set; }
+        public string Name { get; private set; }
 
         public ProtectionModule(string name)
         {
             Name = name;
         }
 
-        public void RunCheck()
+        // Публичный метод, вызываемый менеджером
+        public void RunCheck(RequestEvent request)
         {
             Console.WriteLine($"Running {Name}...");
-            if (PerformCheck())
-                Console.WriteLine($"{Name}: Passed!");
-            else
+            if (!PerformCheck(request))
+            {
                 Console.WriteLine($"{Name}: Blocked!");
+            }
+            else
+            {
+                Console.WriteLine($"{Name}: Passed!");
+            }
         }
 
-        protected abstract bool PerformCheck();
+        // Приватная логика модуля
+        protected abstract bool PerformCheck(RequestEvent request);
     }
 }
