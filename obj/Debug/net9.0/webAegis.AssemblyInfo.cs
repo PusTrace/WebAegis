@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("webAegis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc62392accda8cddda306337b5c619b92efe6be7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cddd55b46eac0de574f8174f51701c3cad3147b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("webAegis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("webAegis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
